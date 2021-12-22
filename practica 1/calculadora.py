@@ -42,7 +42,7 @@ while not(active):
         for item in range(2):
             print("*")
             time.sleep(1)
-    break
+        break
 
 
 # Proyecto 2 (Funciones)
@@ -64,8 +64,8 @@ def multiplicacion(multi1, multi2):
 
 def dividir(divisor, dividendo):
     return divisor / dividendo
-onOf= True
-while onOf == True:
+onOf= False
+while not(onOf):
     print("  ******************  calculadora  ******************")
     print("1) Suma\n2) Resta\n3) Multiplicacion\n4) Division\n5) Salir\n  ****************** (ft. Funciones) ****************")
     choose = int(input("Introduzca la operacion: "))
@@ -89,4 +89,4 @@ while onOf == True:
         print('saliendo de la calculadora')
         for item in range(2):
             print('*')
-        onOf=False
+        break
