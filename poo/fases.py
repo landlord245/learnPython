@@ -7,6 +7,5 @@ class punto:
 
 p1=punto(56,89)
 p1.mostrarPunto()
-
-p1.X = 7
+p1.Y = 7
 p1.mostrarPunto
