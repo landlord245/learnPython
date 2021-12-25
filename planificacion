@@ -1,0 +1,9 @@
+¿Como se guestiona una biblioteca?
+
+En un abiblioteca hay libros.
+Estos libros estan ordenados por CATEGORIA y por LETRAS.
+
+Una funcion que me permita categorizar los libros.
+    Me permitira buscar por categorizar
+        Y Por LETRAS
+    Habra otra opcion que me imprima todos los libros y sus categorias
